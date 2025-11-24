@@ -10,15 +10,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 
-public class LoginFormController {
+public class ConfirmEmailFormController {
     public AnchorPane container;
 
-    public void openDashboardOnAction(ActionEvent actionEvent) {
-        setUi("DashboardForm");
-    }
-
-    public void openForgotPasswordOnAction(ActionEvent actionEvent) {
-        setUi("ForgotPasswordForm");
+    public void openLoginFormOnAction(ActionEvent actionEvent) {
+        setUi("LoginForm");
     }
 
     private void setUi(String location) {
@@ -33,5 +29,9 @@ public class LoginFormController {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void openResetPasswordFormOnAction(ActionEvent actionEvent) {
+        setUi("ResetPasswordForm");
     }
 }
