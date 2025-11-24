@@ -28,7 +28,7 @@
       <ProgressBar fx:id="progressBar" layoutX="166.0" layoutY="235.0" prefHeight="18.0" prefWidth="268.0" progress="0.0" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images/9674714.png" />
+            <Image url="@images/logo.png" />
          </image>
       </ImageView>
    </children>
