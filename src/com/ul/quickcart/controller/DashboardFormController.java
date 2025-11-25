@@ -34,4 +34,28 @@ public class DashboardFormController {
     public void openProductFormOnAction(MouseEvent mouseEvent) {
         setUi("ProductForm");
     }
+
+    public void openStatisticsFormOnAction(MouseEvent mouseEvent) {
+        setUi("StatisticsForm");
+    }
+
+    public void openUserFormOnAction(MouseEvent mouseEvent) {
+        setUi("UserForm");
+    }
+
+    public void openMakeOrderFormOnAction(MouseEvent mouseEvent) {
+        setUi("MakeOrderForm");
+    }
+
+    public void openActivityFormOnAction(MouseEvent mouseEvent) {
+        setUi("ActivityForm");
+    }
+
+    public void openSettingsFormOnAction(MouseEvent mouseEvent) {
+        setUi("SettingsForm");
+    }
+
+    public void openPaymentsFormOnAction(MouseEvent mouseEvent) {
+        setUi("PaymentsForm");
+    }
 }
